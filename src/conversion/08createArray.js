@@ -3,8 +3,5 @@
  * @param {any} b second element to go in array
  * @returns {any[]} array of two elements, [a, b]
  */
-function createArray(a, b) {
-    return [a, b];
-}
-
+const createArray = (a, b) => [a, b];
 export { createArray };
